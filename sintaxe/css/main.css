@@ -1,0 +1,49 @@
+/*!TODO: Sintaxe CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.7rem;
+	display: flex;
+}
+
+.box__container_vertical {
+	padding: 3rem 4rem;
+	width: 26.5rem;
+	height: 100vh;
+	/* border: #5d25ff solid 1rem; */
+
+	background-color: #5d25ff;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.box__container {
+	width: 100%;
+	background-color: #2b2d42;
+	color: #ccc;
+
+	padding: 1rem;
+
+	display: flex;
+	justify-content: center;
+}
+
+/* NOTE: REVISANDO CSS3 E HTML5 */
+
+.paragrafo {
+	background-color: #ccc;
+	color: #5d25ff;
+	line-height: 4rem;
+}

@@ -1,0 +1,42 @@
+/*
+   ? RESET CSS
+*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+	--red: #d90429;
+
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+/*
+   [] Cabeçalho
+*/
+
+h1,
+p {
+	text-align: center;
+}
+h1 {
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+	color: var(--red);
+}
+
+/*
+   [] Galeria
+*/
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
